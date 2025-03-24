@@ -1,4 +1,4 @@
-addclass Animal { //package private access
+class Animal { //package private access
     public String name; //this is a public attribute
 
     Animal(String name){
