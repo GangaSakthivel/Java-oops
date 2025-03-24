@@ -18,12 +18,14 @@ public class Main {
 //        System.out.println(pe.publicNumber);
 //        pe.publicMethod();
 
-        PrivateExample p1 = new PrivateExample();
-        p1.privateMethod();
+//        PrivateExample p1 = new PrivateExample();
+//        p1.privateMethod();
 
         // Try to access the private field directly (this will cause a compilation error)
         //System.out.println(pe.privateNumber);
 
+       Parent p = new Parent();
+       p.protectedMethod();
 
     }
 
