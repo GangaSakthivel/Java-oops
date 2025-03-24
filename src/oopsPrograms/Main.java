@@ -7,12 +7,17 @@ public class Main {
 //        car1.displayDetails();
 //        car2.displayDetails();
 
-        Student s1 = new Student("Ganga", 1, "A");
-        Student s2 = new Student("Vino", 2, "B");
-        s1.studentDetails();
-        s1.updateGrade("A+");
-        s2.studentDetails();
-        s2.updateGrade("B");
+//        Student s1 = new Student("Ganga", 1, "A");
+//        Student s2 = new Student("Vino", 2, "B");
+//        s1.studentDetails();
+//        s1.updateGrade("A+");
+//        s2.studentDetails();
+//        s2.updateGrade("B");
+
+        PublicExample pe = new PublicExample();
+        System.out.println(pe.publicNumber);
+        pe.publicMethod();
+
 
     }
 
