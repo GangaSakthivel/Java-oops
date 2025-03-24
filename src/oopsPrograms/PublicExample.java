@@ -1,5 +1,7 @@
 package oopsPrograms;
 
+//public access modifier
+
 public class PublicExample {
 
     public int publicNumber = 10;

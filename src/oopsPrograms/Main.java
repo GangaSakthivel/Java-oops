@@ -14,9 +14,15 @@ public class Main {
 //        s2.studentDetails();
 //        s2.updateGrade("B");
 
-        PublicExample pe = new PublicExample();
-        System.out.println(pe.publicNumber);
-        pe.publicMethod();
+//        PublicExample pe = new PublicExample();
+//        System.out.println(pe.publicNumber);
+//        pe.publicMethod();
+
+        PrivateExample p1 = new PrivateExample();
+        p1.privateMethod();
+
+        // Try to access the private field directly (this will cause a compilation error)
+        //System.out.println(pe.privateNumber);
 
 
     }
